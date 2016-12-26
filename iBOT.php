@@ -9,7 +9,7 @@ $url = 'http://202.47.249.98:8089/api/todo';
 
 $headers = array('Content-Type: application/json');
 $ch = curl_init($url);
-			curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "GET");
+			curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");
 			curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 			curl_setopt($ch, CURLOPT_POSTFIELDS, $content);
 			curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);

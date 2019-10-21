@@ -6,7 +6,7 @@ $content = file_get_contents('php://input');
 
 //kkk add
 //$url = 'http://202.47.242.182:8088/api/line';
-$url = 'http://202.47.249.98:8088/api/line';
+$url = 'http://202.47.249.98:45457/api/line';
 
 //$url = 'http://202.47.249.98:8089/api/todo';
 

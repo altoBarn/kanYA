@@ -1,2 +1,2 @@
 <?php
-echo "Hello i am iBOT";
+echo "Hello i am kanYA";

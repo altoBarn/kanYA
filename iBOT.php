@@ -8,7 +8,7 @@ $content = file_get_contents('php://input');
 //$url = 'http://202.47.242.182:8088/api/line';
 //$url = 'http://202.47.249.98:45455/api/line';
 //$url = 'http://202.47.226.120:45457/api/line';
-$url = 'http://202.47.226.117:45455/sms';
+$url = 'http://202.47.226.117:45456/api/line';
 
 $headers = array('Content-Type: application/json');
 $ch = curl_init($url);

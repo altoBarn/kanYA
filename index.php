@@ -1,2 +1,2 @@
 <?php
-echo "Hello CAT kanYA";
+echo "Hello NT kanYA";

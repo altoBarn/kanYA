@@ -63,4 +63,4 @@ echo $result . "\r\n";
 //		}
 //	}
 //}
-echo "OK1";
+echo "OK";

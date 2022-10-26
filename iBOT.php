@@ -7,8 +7,9 @@ $content = file_get_contents('php://input');
 //kkk add
 //$url = 'http://202.47.242.182:8088/api/line';
 //$url = 'http://202.47.249.98:45455/api/line';
-$url = 'http://202.47.226.120:45455/api/line';
+//$url = 'http://202.47.226.120:45455/api/line';
 //$url = 'http://202.47.226.116:45455/api/line';
+$url = 'https://b-kanya.nc.ntplc.co.th/api/line';
 
 $headers = array('Content-Type: application/json');
 $ch = curl_init($url);
